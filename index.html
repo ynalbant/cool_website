@@ -1,103 +1,84 @@
-<!DOCTYPE html>
+
 <html>
-<head>
-  <title>class</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
+  <head>
+      <title>OMFGDOGS</title>
+      <link rel="stylesheet" type="text/css" href="omfgdogs.css" />
+      <link href="js/toastr/toastr.css" rel="stylesheet"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/toastr/toastr.js"></script>
+  </head>
 
+  <body>
+      <div id="overlay" class="container" onclick="off()">
+          <a href='#'class='playBut'>
+              <svg version="1.1"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                  x="0px" y="0px" width="213.7px" height="213.7px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
+                  xml:space="preserve">
 
+                  <polygon class='triangle' id="XMLID_18_" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+                      73.5,62.5 148.5,105.8 73.5,149.1 "/>
 
-<body style="background-color:powderblue;">
-  <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-
-
-
-<h1 style="color:red;text-align:center">The content of the document...... </h1>
-  <a href="https://evolvecyber.com">Visit Evolve Cyber!</a> <br />
-  <p1><a href="https://google.com">Visit Google!</a></p1> <br />
-  <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a>
-  <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a>
-  <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a>
-  <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a> <br />
-  <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a> <br />
-  <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a> <br />
-  <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a> <br />
-  <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a> <br />
-  <p1>This coool website is done with my students</p1>
-  
-  <h2>Modal Signup Form</h2>
-
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
-
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
-    <div class="container">
-      <h1>Sign Up</h1>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-      
-      <label>
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
-
-      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
+                  <circle class='circle' id="XMLID_17_" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"/>
+              </svg>
+          </a>
       </div>
-    </div>
-  </form>
-</div>
-    
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <div class="w3-container w3-green">
-  <h1>Evolve Cyber Demo</h1> 
-  <p>Resize this responsive page!</p> 
-</div>
-  <h1>This is new feature from fsadykov </h1>
-<div class="w3-row-padding">
-  <div class="w3-third">
-    <h2>London</h2>
-    <p>London is the capital city of England.</p>
-    <p>It is the most populous city in the United Kingdom,
-    with a metropolitan area of over 13 million inhabitants.</p>
-  </div>
-  <div class="w3-third">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p> 
-    <p>The Paris area is one of the largest population centers in Europe,
-    with more than 12 million inhabitants.</p>
-  </div>
-  <div class="w3-third">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area,
-    and the most populous metropolitan area in the world.</p>
-  </div>
-</div>
 
-  
-  <address style="border: 10px solid Tomato;">
-  Written by Evolve Cyber. <br>
-    Visit us at: <br>
-    Evolvecyber.com <br>
-    5636 n Western ave <br>
-    Chicago IL 60659 <br>
-    </address>
-</body>
+      <audio id="omfgaudio" loop>
+          <source src="omfgdogs.mp3" type="audio/mpeg">
+      </audio>
+
+      <script type="text/javascript">
+          function off() {
+              document.getElementById("overlay").style.display = "none";
+              var audio = document.getElementById("omfgaudio");
+              audio.play();
+          }
+      </script>
+
+      <script type="text/javascript">
+          toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "positionClass": "toast-bottom-right",
+            "showDuration": "1000",
+            "hideDuration": "1000",
+            "timeOut": "100000",
+            "extendedTimeOut": "100000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+         }
+      </script>
+
+      <div id="footer">
+          <div id="footer-left">
+              [ <a href="http://escism.net/" target="_blank">escism.net</a> ] [ <a href="https://twitter.com/eataudio" target="_blank">@eataudio</a> ]
+          </div>
+          <div id="footer-right" >
+              <div id="helptext">
+                  [ help keep the dogs running! ]
+              </div>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input type="hidden" name="hosted_button_id" value="J2EHN6Y6XPR6J" />
+                  <input type="image" src="https://omfgdogs.com/pp.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                  <img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+
+              <div id="btc">
+                  <a href="#"><img src="btc.svg" width="25px"/></a>
+              </div>
+          </div>
+      </div>
+
+      <script type="text/javascript">
+          $('#btc').click(function() {
+              toastr.info('Donate Bitcoin!<br /><a href="bitcoin:1DwMsjfHmgDjKRCwM5AM2gcQ4xidfJLDVT">1DwMsjfHmgDjKRCwM5AM2gcQ4xidfJLDVT</a>')
+          });
+          toastr.options.onHidden = function() { }
+      </script>
+      <script src="js/wat.js"></script>
+  </body>
 </html>
